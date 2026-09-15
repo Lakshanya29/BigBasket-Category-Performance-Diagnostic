@@ -29,19 +29,18 @@ BigBasket_capstone/
 ```
 
 ## Part 1 --- SQL
-
-The SQL work is organized into: - `01_foundations.sql` --- foundational
-queries and diagnostics - `02_aggregation_joins.sql` --- aggregation and
-join analysis - `03_reporting.sql` --- reporting and category-level
-outputs - `verify.sql` --- verification queries
+The SQL work is organized into:
+- [01_foundations.sql](01_foundations.sql) --- foundational queries and diagnostics
+- [02_aggregation_joins.sql](02_aggregation_joins.sql) --- aggregation and join analysis
+- [03_reporting.sql](03_reporting.sql) --- reporting and category-level outputs
+- [verify.sql](verify.sql) --- verification queries
 
 The SQL analysis establishes the project baseline for category revenue,
 target comparison, and supplier/category findings.
 
 ## Part 2 --- Google Sheets / Excel
 
-`BigBasket_Category_Performance.xlsx` contains the completed category
-performance analysis.
+[BigBasket_Category_Performance.xlsx](BigBasket_Category_Performance.xlsx) contains the completed category performance analysis.
 
 The Category Summary includes: - Total Revenue - Target Revenue -
 Variance - % Variance - Target Status - Part 1 SQL cross-check
@@ -64,7 +63,7 @@ Dashboard](https://public.tableau.com/views/BigBasketDashboard_17894497685380/Da
 
 ## Part 4 --- Python / Pandas
 
-`analysis.ipynb` is the Jupyter/Google Colab notebook for the
+ [analysis.ipynb](analysis.ipynb) is the Jupyter/Google Colab notebook for the
 independent cleaning and analysis of the raw data.
 
 The notebook includes: - Loading and inspection of `orders_raw.csv` and
@@ -123,17 +122,15 @@ Part 1.
 
 ## AI Usage
 
-AI assistance used during the project is documented in `ai_log.md`.
+AI assistance used during the project is documented in [ai_log.md](ai_log.md).
 
 The log records the prompts, accepted/modified suggestions, and
 verification steps used for the project.
 
 ## Main Artifacts
 
--   SQL: `01_foundations.sql`, `02_aggregation_joins.sql`,
-    `03_reporting.sql`, `verify.sql`
--   Spreadsheet output: `BigBasket_Category_Performance.xlsx`
--   Tableau: [Live
-    Dashboard](https://public.tableau.com/app/profile/lakshanya.n/viz/BigBasketDashboard_1789449765380/Dashboard1)
--   Python notebook: `analysis.ipynb`
--   AI log: `ai_log.md`
+- SQL: [01_foundations.sql](01_foundations.sql), [02_aggregation_joins.sql](02_aggregation_joins.sql), [03_reporting.sql](03_reporting.sql), [verify.sql](verify.sql)
+- Spreadsheet output: [BigBasket_Category_Performance.xlsx](BigBasket_Category_Performance.xlsx)
+- Tableau: [Live Dashboard](https://public.tableau.com/views/BigBasketDashboard_17894497685380/Dashboard1)
+- Python notebook: [analysis.ipynb](analysis.ipynb)
+- AI log: [ai_log.md](ai_log.md)
